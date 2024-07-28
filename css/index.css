@@ -2,9 +2,10 @@ body {
   margin: 0 auto;
 }
 
-nav {
+.nav {
 height: 60px;
 background-color: pink;
+width: 100%;
 }
 
 p {
@@ -40,6 +41,10 @@ h1 {
     display: inline-block;
     vertical-align: top;
   }
+
+.parent {
+  margin-top: 0px;
+}
 
 .left {
  width: 30%;
